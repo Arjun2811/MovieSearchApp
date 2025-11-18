@@ -67,10 +67,6 @@ Your application will be available at:
 http://localhost:5173/
 ```
 
----
-
-## 📸 Screenshots  
-(You can add screenshots of your UI here later.)
 
 ---
 
