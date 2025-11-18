@@ -1,48 +1,79 @@
 # 🎬 Movie Search App
 
-A simple and stylish **Movie Search App** built with **React** and powered by the [OMDb API](https://www.omdbapi.com/).  
-The app lets users search for movies, view details, and explore movie information with a clean UI.  
+A modern and elegant **Movie Search App** built with **React (Vite)** and powered by the **TMDB API**.  
+Users can search for movies, browse trending titles, and explore movie posters with a smooth and clean UI.
 
-Deployed on **Netlify** .
+Deployed on **Netlify**.
 
-### Link: https://movietrendhub.netlify.app/
----
-
-## Features
-
--  Search movies by title
--  Shows dynamic trending movies based on user searches
--  View details like year, genre, plot, and rating  
--  Fast and responsive design with React  
--  Backend powered by [Appwrite](https://appwrite.io/) for API handling & auth  
+### 🌐 Live Demo  
+👉 **https://movietrendhub.netlify.app/**
 
 ---
 
-## 🛠 Tech Stack
+## ⭐ Features
 
-- **Frontend:** React, CSS, JavaScript  
-- **Backend:** Appwrite  
+- 🔍 Search movies by title  
+- 🔥 View trending movies of the week (TMDB Trending API)  
+- ⚡ Fast performance using Vite + React  
+- 🎨 Clean and responsive UI  
+- 📱 Works on all screen sizes  
+
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, Vite, JavaScript  
+- **Styling:** CSS, Tailwind  
+- **API:** TMDB API (v3)  
 - **Deployment:** Netlify  
-- **API:** TMDB API : https://api.themoviedb.org/3
+
 
 ---
-
 ## 📂 Project Setup
 
-Clone the repo and install dependencies:
+Follow these steps to run the project on your local machine:
 
+### 1️⃣ Clone the Repository  
 ```bash
-git clone https://github.com/koustav516/Movie_Search_app.git
-cd Movie_Search_app
+git clone https://github.com/Arjun2811/MovieSearchApp.git
+cd MovieSearchApp
+```
+
+### 2️⃣ Install Dependencies  
+Install all required packages using npm:
+```bash
 npm install
 ```
 
-Also Add the Env Variables:
-```bash
-VITE_TMDB_API_KEY=<YOUR_KEY>
+### 3️⃣ Create a `.env` File  
+Inside the project root, create a new file named `.env` and add your TMDB API key:
 
-VITE_APPWRITE_PROJECT_ID=<ID>
-VITE_APPWRITE_PROJECT_NAME= <PROJECT_NAME>
-VITE_APPWRITE_ENDPOINT=<API_ENDPOINT>
-VITE_APPWRITE_DB_ID=<DB_ID>
-VITE_APPWRITE_COLLECTION_ID=<COLECTION_ID>
+```env
+VITE_TMDB_API_KEY=YOUR_TMDB_API_KEY
+```
+
+You can generate your free TMDB API key here:  
+https://www.themoviedb.org/settings/api
+
+### 4️⃣ Run the Development Server  
+Start the local development server:
+```bash
+npm run dev
+```
+
+Your application will be available at:
+```
+http://localhost:5173/
+```
+
+---
+
+## 📸 Screenshots  
+(You can add screenshots of your UI here later.)
+
+---
+
+## 👨‍💻 Author  
+**Arjun Singh**  
+MovieSearchApp — 2025
