@@ -6,7 +6,7 @@ Users can search for movies, browse trending titles, and explore movie posters w
 Deployed on **Netlify**.
 
 ### 🌐 Live Demo  
-👉 **https://movietrendhub.netlify.app/**
+👉 **https://majestic-belekoy-117fcc.netlify.app**
 
 ---
 
